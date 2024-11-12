@@ -7,5 +7,5 @@ class MinOfThreeVarsTestCase(unittest.TestCase):
 
     def test_min_a(self):
         res = min_of_three_vars(1, 2, 3)
-        self.assertEquals(res, 1)
+        self.assertEqual(res, 1)
         
